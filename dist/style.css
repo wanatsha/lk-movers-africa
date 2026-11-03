@@ -276,3 +276,4 @@ input::placeholder,textarea::placeholder{color:#a3a8ad;font-weight:400}
   .road{--p:1}
   .film video,.motion-toggle{display:none}
 }
+.truck figcaption{position:relative;z-index:1;margin-top:18px;font:600 11px/1.4 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}

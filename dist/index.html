@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&family=Overpass:wght@400;600;700&family=Overpass+Mono:wght@500;600&display=swap">
-<link rel="stylesheet" href="style.css?v=20261103a">
+<link rel="stylesheet" href="style.css?v=20261103b">
 </head>
 <body>
 
@@ -26,7 +26,7 @@
     <nav id="nav" aria-label="Main">
       <a href="#services">Services</a>
       <a href="#route">Routes</a>
-      <a href="#fleet">Our truck</a>
+      <a href="#fleet">Our fleet</a>
       <a href="#process">How it works</a>
       <a href="#quote">Contact</a>
     </nav>
@@ -43,9 +43,9 @@
   </div>
   <div class="wrap hero-in">
     <p class="eyebrow load" style="--d:0">Relocations &amp; deliveries · Botswana</p>
-    <h1 aria-label="Your move. Our truck.">
+    <h1 aria-label="Your move. Our trucks.">
       <span class="line"><span>Your move.</span></span>
-      <span class="line"><span>Our truck<em>.</em></span></span>
+      <span class="line"><span>Our trucks<em>.</em></span></span>
     </h1>
     <p class="lede load" style="--d:.55s">Homes, offices and goods moved with care, from Gaborone to Palapye, Francistown, Maun and beyond.</p>
     <div class="actions load" style="--d:.7s">
@@ -66,7 +66,7 @@
   <div class="wrap">
     <div class="head reveal">
       <p class="eyebrow dark">What we move</p>
-      <h2>One truck, a careful crew, <span>eight ways to use them.</span></h2>
+      <h2>The right-sized truck, a careful crew, <span>for every kind of move.</span></h2>
     </div>
     <div class="svc-cols">
       <div class="svc-group reveal">
@@ -143,16 +143,17 @@
 <section id="fleet" class="fleet">
   <div class="wrap fleet-in">
     <figure class="truck reveal">
-      <img src="assets/daf.webp" width="1000" height="886" loading="lazy" alt="The LK Movers Africa DAF truck in white livery with grey and red stripes">
+      <img src="assets/daf.webp" width="1000" height="886" loading="lazy" alt="An LK Movers Africa DAF truck in white livery with grey and red stripes">
+      <figcaption>Pictured: DAF LF 45.180, 7.5 tonne</figcaption>
     </figure>
     <div class="spec reveal" style="--d:.12s">
-      <p class="eyebrow dark">Our truck</p>
+      <p class="eyebrow dark">Our fleet</p>
       <h2>Built for the long road<span>.</span></h2>
-      <p>A 7.5 tonne truck that handles household moves and regional deliveries, with a crew that does the heavy lifting.</p>
+      <p>Our fleet covers a range of truck sizes, so we match the vehicle to your load, from a few items to a full house or office. A crew comes along to do the heavy lifting.</p>
       <dl>
-        <div><dt>Make</dt><dd>DAF LF 45.180</dd></div>
-        <div><dt>Class</dt><dd>7.5 tonne</dd></div>
-        <div><dt>Body</dt><dd>Enclosed box body</dd></div>
+        <div><dt>Fleet</dt><dd>Trucks in several sizes</dd></div>
+        <div><dt>Includes</dt><dd>DAF LF 45.180, 7.5 tonne</dd></div>
+        <div><dt>Matched to</dt><dd>Your load and route</dd></div>
         <div><dt>Based in</dt><dd>Gaborone</dd></div>
       </dl>
     </div>
@@ -167,7 +168,7 @@
     </div>
     <ol class="steps">
       <li class="reveal"><span class="n">1</span><h3>Send your route</h3><p>Tell us where from, where to, the date and roughly what is moving.</p></li>
-      <li class="reveal" style="--d:.08s"><span class="n">2</span><h3>Get your quote</h3><p>We confirm the price and book the truck for your date.</p></li>
+      <li class="reveal" style="--d:.08s"><span class="n">2</span><h3>Get your quote</h3><p>We confirm the price and book the right truck for your date.</p></li>
       <li class="reveal" style="--d:.16s"><span class="n">3</span><h3>We pack and load</h3><p>Fragile pieces are wrapped and the load is secured on the truck.</p></li>
       <li class="reveal" style="--d:.24s"><span class="n">4</span><h3>Delivered and unloaded</h3><p>Everything is unloaded at your new address, on the day we agreed.</p></li>
     </ol>
@@ -198,7 +199,15 @@
         <label class="from">Collect from<input required name="From" placeholder="e.g. Block 8, Gaborone"></label>
         <label class="to">Deliver to<input required name="To" placeholder="e.g. Francistown"></label>
         <label>Moving date<input type="date" name="Date"></label>
-        <label>Service<select required name="Service">
+        <label>Load size<select name="Load size">
+          <option value="">Not sure, please advise</option>
+          <option>A few items</option>
+          <option>1 to 2 bedroom home</option>
+          <option>3 or more bedroom home</option>
+          <option>Office</option>
+          <option>Stock or pallets</option>
+        </select></label>
+        <label class="full">Service<select required name="Service">
           <option value="">Choose a service</option>
           <option>Home Relocations</option>
           <option>Office Relocations</option>
@@ -225,13 +234,13 @@
     <p class="motto" aria-hidden="true">Africa forward<em>.</em></p>
     <div class="foot-row">
       <a class="logo" href="#home" aria-label="LK Movers Africa home"><img src="assets/mark.webp" alt="" width="65" height="28"><b>LK MOVERS<small>AFRICA</small></b></a>
-      <nav aria-label="Footer"><a href="#services">Services</a><a href="#route">Routes</a><a href="#fleet">Our truck</a><a href="#quote">Contact</a></nav>
+      <nav aria-label="Footer"><a href="#services">Services</a><a href="#route">Routes</a><a href="#fleet">Our fleet</a><a href="#quote">Contact</a></nav>
       <p><a href="tel:+26775892103">+267 75 892 103</a><br><a href="mailto:info@lklogisticsafrica.co.bw">info@lklogisticsafrica.co.bw</a></p>
     </div>
     <p class="copy">© <span id="yr">2026</span> LK Movers Africa · Gaborone, Botswana</p>
   </div>
 </footer>
 
-<script src="app.js?v=20261103a"></script>
+<script src="app.js?v=20261103b"></script>
 </body>
 </html>
